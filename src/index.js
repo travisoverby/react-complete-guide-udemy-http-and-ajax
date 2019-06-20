@@ -18,7 +18,7 @@ axios.interceptors.request.use(request => {
   return Promise.reject(error);
 });
 
-const interceptor = axios.interceptors.response.use(response => {
+/*const interceptor = */axios.interceptors.response.use(response => {
   console.log(response);
   // Edit response config
   return response;
