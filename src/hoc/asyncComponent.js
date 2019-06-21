@@ -14,9 +14,9 @@ const asyncComponent = (importComponent) => {
     }
 
     render() {
-      const C = this.state.component;
+      const Cmp = this.state.component;
 
-      return C ? <C {...this.props} /> : null;
+      return Cmp ? <Cmp {...this.props} /> : null;
     }
 
   }
